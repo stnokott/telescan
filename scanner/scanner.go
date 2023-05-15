@@ -54,7 +54,7 @@ func (s *Scanner) Scan() ([]byte, error) {
 	s.logger.Debugw("Scanner capabilities", "capabilities", scannerCapabilities)
 	if scannerCapabilities.Adf != nil {
 		s.logger.Infoln("ADF is available on selected scanner, so using it.")
-		ss.InputSource = "adf"
+		ss.InputSource = "Feeder"
 	}
 
 	scan, err := cl.Scan(ss)
