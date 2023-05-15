@@ -1,4 +1,4 @@
-module github.com/kn100/telescan
+module github.com/stnokott/telescan
 
 go 1.20
 
